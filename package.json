@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-cli",
+  "version": "1.0.0",
+  "description": "Creating CLI tool using Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Habibov Ulugbek",
+  "license": "ISC",
+  "bin": {
+    "my-node-cli": "./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.20",
+    "ora": "^8.0.1"
+  }
+}
